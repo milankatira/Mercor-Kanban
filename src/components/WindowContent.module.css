@@ -1,0 +1,307 @@
+.brline{
+  width: 100%;
+  border-top: 1px solid rgb(228, 228, 228);
+}
+.colorfilterIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.projectM {
+  position: relative;
+  font-weight: 600;
+}
+.websiteicon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-7xs);
+  margin-left: 10px;
+}
+.vuesaxoutlinearrowLeftIcon,
+.vuesaxoutlinearrowLeftIcon1 {
+  position: absolute;
+  top: 0;
+  left: 6px;
+  width: 20px;
+  height: 20px;
+}
+.vuesaxoutlinearrowLeftIcon1 {
+  left: 0;
+}
+.leftmenuBtn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 26px;
+  height: 20px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-30xl);
+  font-size: var(--font-size-xl);
+}
+.menubrIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1px;
+  flex-shrink: 0;
+}
+.home {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-slategray);
+  text-align: left;
+}
+.homeBtn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-sm);
+  margin-left: 10px;
+}
+.myProjects {
+  position: relative;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+.vuesaxlinearaddSquareIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.addProject {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+.myprojects {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-81xl);
+  color: var(--color-slategray);
+  
+}
+.div {
+  position: absolute;
+  top: 6px;
+  left: 195px;
+  letter-spacing: -0.07em;
+  font-weight: 800;
+}
+.mobileApp1 {
+  position: absolute;
+  top: 10px;
+  left: 36px;
+  font-weight: 600;
+}
+.mobileAppChild {
+  position: absolute;
+  top: 15px;
+  left: 12px;
+  border-radius: 50%;
+  background-color: var(--color-lightgreen);
+  width: 8px;
+  height: 8px;
+}
+.mobileApp {
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-blueviolet-200);
+  width: 218px;
+  height: 40px;
+  font-size: var(--font-size-base);
+}
+.webstiteRedesignChild {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-orange);
+  width: 8px;
+  height: 8px;
+  margin-left: 10px;
+}
+.webstiteRedesign {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 162px;
+  height: 19px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.designSystemChild {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-thistle);
+  width: 8px;
+  height: 8px;
+}
+.designSystem {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 139px;
+  height: 19px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  margin-left: 10px;
+}
+.wireframesChild {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-cornflowerblue);
+  width: 8px;
+  height: 8px;
+}
+.wireframes {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 113px;
+  height: 19px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  margin-left: 10px;
+}
+.unionIcon {
+  position: relative;
+  width: 222px;
+  height: 228.28px;
+}
+.writeAMessage {
+  position: absolute;
+  top: 12px;
+  left: calc(50% - 56px);
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+}
+.writeMsgBtn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  top: 173px;
+  left: 26px;
+  border-radius: var(--br-9xs);
+  width: 166px;
+  height: 40px;
+}
+.weDontHave {
+  position: relative;
+  display: inline-block;
+  width: 166px;
+}
+.frame {
+  position: absolute;
+  top: 99px;
+  left: 26px;
+  width: 166px;
+  height: fit-content;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.thoughtsTime {
+  position: absolute;
+  top: 68px;
+  left: calc(50% - 51px);
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-black);
+  text-align: left;
+}
+.lampOnIcon {
+  position: absolute;
+  top: 21px;
+  left: calc(50% - 10px);
+  width: 24px;
+  height: 24px;
+}
+.lampShadow {
+  position: absolute;
+  top: -18px;
+  left: calc(50% - 50px);
+  width: 101px;
+  height: 101px;
+}
+.thoughtsContainer {
+  align-self: stretch;
+  position: relative;
+  height: 242px;
+  text-align: center;
+  color: var(--color-slategray);
+}
+.menuContainer {
+  align-self: stretch;
+  border-right: 1px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-13xl) var(--padding-2xs);
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-10xl);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray);
+  font-family: var(--font-inter);
+  transition: all 0.7s ease-in-out;
+}
+@media screen and (max-width: 1400px) {
+  .menuContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: rgb(255, 255, 255);
+  transition: all 0.7s ease-in-out;
+
+  }
+}
